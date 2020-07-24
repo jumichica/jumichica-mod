@@ -1,0 +1,12 @@
+{
+    "name": "jumichica/jumichica.wapp.mod",
+    "description": "MJumichica Simple Module.",
+    "type": "project",
+    "authors": [
+        {
+            "name": "Edwin Ariza",
+            "email": "me@edwinariza.com"
+        }
+    ],
+    "require": {}
+}
