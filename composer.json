@@ -8,5 +8,6 @@
             "email": "me@edwinariza.com"
         }
     ],
-    "require": {}
+    "require": {},
+    "license": "MIT"
 }
