@@ -1,5 +1,5 @@
 {
-    "name": "jumichica/jumichica.wapp.mod",
+    "name": "jumichica/jumichica-mod",
     "description": "Módulo vació para agregarlo a un proyecto desarrollado con el microframework **Jumíchica**.",
     "keywords": ["framework", "jumichica"],
     "type": "project",

@@ -1,4 +1,4 @@
-# jumichica.wapp.mod
+# jumichica/jumichica-mod
 Módulo para una aplicación web que utiliza el framework jumichica.
 
 ## Crea un módulo nuevo en tu proyecto Jumíchica
