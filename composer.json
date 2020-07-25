@@ -1,7 +1,9 @@
 {
     "name": "jumichica/jumichica.wapp.mod",
-    "description": "MJumichica Simple Module.",
+    "description": "Módulo vació para agregarlo a un proyecto desarrollado con el microframework **Jumíchica**.",
+    "keywords": ["framework", "jumichica"],
     "type": "project",
+    "version": "1.0.0",
     "authors": [
         {
             "name": "Edwin Ariza",
@@ -9,6 +11,5 @@
         }
     ],
     "require": {},
-    "license": "MIT",
-    "version": "v1.0"
+    "license": "MIT"
 }
