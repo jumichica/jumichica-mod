@@ -1,9 +1,9 @@
 {
     "name": "jumichica/jumichica-mod",
-    "description": "Módulo vació para agregarlo a un proyecto desarrollado con el microframework **Jumíchica**.",
-    "keywords": ["framework", "jumichica"],
+    "description": "Módulo inicial para facilitar  a un proyecto desarrollado con el microframework **Jumíchica**.",
+    "keywords": ["framework", "jumichica", "jumichica module"],
     "type": "project",
-    "version": "1.0.0",
+    "version": "1.0.1",
     "authors": [
         {
             "name": "Edwin Ariza",
