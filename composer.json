@@ -1,6 +1,6 @@
 {
     "name": "jumichica/jumichica-mod",
-    "description": "Módulo inicial para facilitar  a un proyecto desarrollado con el microframework **Jumíchica**.",
+    "description": "Módulo inicial para facilitar  a un proyecto desarrollado con el microframework Jumíchica.",
     "keywords": ["framework", "jumichica", "jumichica module"],
     "type": "project",
     "version": "1.1.0",
