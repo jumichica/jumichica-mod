@@ -22,16 +22,28 @@ else{
     $CSS_MODULO=$module_conf->static->css;
     $list_css=explode(",",$CSS_MODULO);
     foreach($list_css as $css_element){
-      if($css_element!=''){
-        $HEADER_CSS_MODULE.='<link rel="stylesheet" href="static/css/'.$css_element.'">';
-      }
+        $css_element= trim($css_element);
+        if($css_element!=''){
+            if (strpos($css_element, '//') >= 1 ) {
+                $HEADER_CSS_MODULE.='<link rel="stylesheet" href="'.$css_element.'">';
+            }
+            else{
+                $HEADER_CSS_MODULE.='<link rel="stylesheet" href="static/css/'.$css_element.'">';
+            }
+        }
     }
     //Leemos los JS
     $JS_MODULO=$module_conf->static->js;
     $list_js=explode(",",$JS_MODULO);
     foreach($list_js as $js_element){
       if($js_element!=''){
-        $HEADER_JS_MODULE.='<script src="static/js/'.$js_element.'"></script>';
+        if (strpos($js_element, '//') >= 1 ) {
+            $js_element = trim($js_element);
+            $HEADER_JS_MODULE.='<script src="'.$js_element.'"></script>';
+        }
+        else{
+            $HEADER_JS_MODULE.='<script src="static/js/'.$js_element.'"></script>';
+        }
       }
     }
   }

@@ -1,10 +1,37 @@
-<!-- Caragamos el detalle de la vista para mostrarla -->
-<div id="outer-div">
-  <div id="inner-div">
-    <div class="header">
-      <img src="../static/img/jumichica.svg" width="300px">
+
+<div class="container">
+  <div class="header">
+    <img src="../static/img/jumichica.svg" width="300px">
+  </div>
+  <div class="jumbotron">
+    <h1 class="display-3"><?php echo $module_conf->name; ?></h1>
+    <p class="lead"><?php echo $module_conf->description; ?></p>
+  </div>
+  <div class="border-top border-bottom mt-3 mb-3 display-6">Caracter&iacute;sticas</div>
+  <div class="row mb-5">
+    <div class="col-lg-6">
+      <h4>Sencillo</h4>
+      <p>Solo debes generar el m&oacute;dulo con el c&oacute;digo <code>composer create-project jumichica/jumichica-mod [NOMBRE_MODULO]</code>.</a></p>
+
+      <h4>Modelo de Datos</h4>
+      <p>Gesti&oacute;n simplificada de datos y conexiones a la base de datos.</p>
+
+      <h4>Controladores</h4>
+      <p>Capa de control para el an&aacute;lisis o procesamiento de datos.</p>
     </div>
-    <div class="body">
+
+    <div class="col-lg-6">
+      <h4>&Aacute;gil</h4>
+      <p>Motor simplficado para la ejecuci&oacute;n de la aplicaci&oacute;n en PHP.</p>
+
+      <h4>Seguro</h4>
+      <p>Protocolo de protecci&oacute;n de las interacciones y eventos.</p>
+
+      <h4>Actualizado</h4>
+      <p>Adaptado a las &uacute;ltimas versiones de PHP.</p>
+    </div>
+    <div class="mb-5">
+      <div class="border-top border-bottom display-6 mb-3 mt-3">Estructura de Directorios</div>
       <ul>
         <li><b>conf/</b> - variables de configuración del módulo. </li>
         <li><b>controller/controller.php</b> - procesos y cálculos. </li>
@@ -13,8 +40,10 @@
         <li><b>view/</b> - Vistas y modales del módulo. </li>
       </ul>
     </div>
-    <div class='footer'>
-      <a href='www.jumichica.com'>www.jumichica.com</a>
-    </div>
   </div>
-</div>
+
+  <footer class="footer">
+    <p><b>Jumichica</b> Foundation © <a href="https://jumichica.com">jumichica.com</a> 2021</p>
+  </footer>
+</div> <!-- /container -->
+

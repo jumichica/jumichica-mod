@@ -1,6 +1,9 @@
 {
+  "name": "M&oacute;dulo para Applicaci&oacute;n Web",
+  "description": "M&oacute;dulo para permitir la extensi&oacute;n de la plataforma base desarrollada con el framework Jumichica.",
+  "version": "1.0",
   "static": {
-    "css": "estilos.css",
-    "js": ""
+    "css": "style.css, https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css",
+    "js": "event.js, https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js"
   }
 }
